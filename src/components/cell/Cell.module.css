@@ -1,0 +1,36 @@
+.cell {
+  border: 1px solid black;
+  list-style: none;
+}
+
+.cell:hover {
+  cursor: pointer;
+}
+
+.white {
+  background-color: #ffffff;
+}
+
+.red {
+  background-color: #d63636;
+}
+
+.blue {
+  background-color: #230fd6;
+}
+
+.green {
+  background-color: #23b136;
+}
+
+.yellow {
+  background-color: #e5ff00;
+}
+
+.purple {
+  background-color: #920092;
+}
+
+.black {
+  background-color: #000000;
+}
