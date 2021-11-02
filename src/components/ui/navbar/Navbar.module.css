@@ -1,0 +1,31 @@
+.navbar {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid #0e0e0e;
+  margin-bottom: 2rem; /* Remove !*/
+}
+
+.navbar__logo {
+  width: 30%;
+  margin: 0;
+  padding: 0 2rem;
+}
+
+.navbar__control {
+  width: 70%;
+  margin: 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.navbar__control span {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.navbar__control span:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
