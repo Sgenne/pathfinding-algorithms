@@ -1,0 +1,29 @@
+.dropdown-container {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.dropdown {
+    position: absolute;
+    list-style: none;
+    background-color: #ffffff;
+    margin: 0;
+    width: 100%;
+    z-index: 100;
+    transform: scaleY(0);
+}
+
+.dropdown.extended {
+    transform: scaleY(1);
+}
+
+.dropdown__option {
+    margin: 0;
+    padding: 0.4rem 0;
+    transition: 0.2s background-color ease-in;
+}
+
+.dropdown__option:hover {
+    background-color: #e0e0e0;
+}
